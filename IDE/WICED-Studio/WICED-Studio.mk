@@ -66,3 +66,4 @@ GLOBAL_DEFINES  +=  ECC_SHAMIR            \
                     WOLFSSL_SHA3          \
                     WOLFSSL_SHA384        \
                     WOLFSSL_SHA512        \
+                    WOLFSSL_WICED         \
