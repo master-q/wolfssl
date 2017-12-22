@@ -67,3 +67,4 @@ GLOBAL_DEFINES  +=  ECC_SHAMIR            \
                     WOLFSSL_SHA384        \
                     WOLFSSL_SHA512        \
                     WOLFSSL_WICED         \
+                    WOLFSSL_WICED_PSEUDO_UNIX_EPOCH_TIME=$(shell $(PERL) -e "print time()") \
