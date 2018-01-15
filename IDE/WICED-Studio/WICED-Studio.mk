@@ -40,6 +40,7 @@ GLOBAL_INCLUDES +=  ../../
 GLOBAL_DEFINES  +=  ECC_SHAMIR            \
                     ECC_TIMING_RESISTANT  \
                     FREERTOS              \
+                    HAVE_AESCCM           \
                     HAVE_CHACHA           \
                     HAVE_ECC              \
                     HAVE_EXTENDED_MASTER  \
@@ -52,6 +53,7 @@ GLOBAL_DEFINES  +=  ECC_SHAMIR            \
                     NO_FILESYSTEM         \
                     NO_HC128              \
                     NO_MAIN_DRIVER        \
+                    NO_OLD_SSL_NAMES \
                     NO_PWDBASED           \
                     NO_RABBIT             \
                     NO_RC4                \
