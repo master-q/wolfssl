@@ -53,10 +53,11 @@ GLOBAL_DEFINES  +=  ECC_SHAMIR            \
                     NO_FILESYSTEM         \
                     NO_HC128              \
                     NO_MAIN_DRIVER        \
-                    NO_OLD_SSL_NAMES \
+                    NO_OLD_SSL_NAMES      \
                     NO_PWDBASED           \
                     NO_RABBIT             \
                     NO_RC4                \
+                    NO_WRITEV             \
                     TFM_ECC256            \
                     TFM_TIMING_RESISTANT  \
                     USE_FAST_MATH         \
@@ -70,3 +71,5 @@ GLOBAL_DEFINES  +=  ECC_SHAMIR            \
                     WOLFSSL_SHA512        \
                     WOLFSSL_WICED         \
                     WOLFSSL_WICED_PSEUDO_UNIX_EPOCH_TIME=$(shell $(PERL) -e "print time()") \
+
+GLOBAL_CFLAGS   +=  -g1
